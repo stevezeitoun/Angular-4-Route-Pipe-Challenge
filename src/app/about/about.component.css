@@ -1,0 +1,14 @@
+
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.description {
+  width : 500px;
+  color: rgba(0,0,0,.54);
+}
+
+
