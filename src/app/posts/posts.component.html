@@ -1,3 +1,14 @@
-<p>
-  posts works!
-</p>
+
+
+
+<ul>
+
+    <!-- <input type="text" [(ngModel)]='term'> -->
+    <input #search  (keyup)="0">
+
+  <li *ngFor=   "let post of posts | filter:search.value " >
+      {{post.title}}
+      <span>{{ post.description }}</span>
+      <span>{{ post.dateCreation | date:"MM/dd/yy" }}</span>
+  </li>
+</ul>

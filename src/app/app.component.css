@@ -9,10 +9,11 @@ nav {
   display: flex;
   align-items: center;
   background-color: #273338;
-  height: 75px;
+  height: 65px;
   box-shadow: 0 5px 5px 0 rgba(0,0,0,.3);
   width: 100%;
   position: fixed;
+  top: 0;
 
 }
 
@@ -33,4 +34,14 @@ h1 {
 .link a {
   margin: 30px;
   font-size: 17px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #212121;
+  width: 100%;
+  height: 80px;
+  margin-top: 40px;
+
 }
