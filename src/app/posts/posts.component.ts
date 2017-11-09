@@ -13,16 +13,16 @@ import { SortPipe  } from './../sort.pipe';
 })
 export class PostsComponent implements OnInit {
   posts = POSTS;
-  toggle = true; // start with true == shortDate
+  date: boolean = true;
 
-    get format()   { return this.toggle ? 'shortDate' : 'fullDate'; }
-    toggleFormat() { this.toggle = !this.toggle; }
+
 
 
 
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

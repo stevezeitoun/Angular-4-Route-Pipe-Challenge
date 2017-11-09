@@ -2,6 +2,6 @@ export class Post {
   id: number;
   title: string;
   description: string;
-  dateCreation: Date;
+  date: Date;
   image: string;
 }
